@@ -1,0 +1,82 @@
+.modal {
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.content {
+  background-color: white;
+  width: 450px;
+}
+.header {
+  padding: 15px;
+  border-bottom: 1px solid #dfe6e9;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.heading {
+  font-weight: 900;
+}
+.closeModal {
+  cursor: pointer;
+}
+.inputSection {
+  padding: 20px;
+}
+.aadhaarInputWrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.aadhaarLogo {
+  width: 100px;
+}
+.aadhaarInput {
+  padding: 8px 10px;
+  outline: none;
+}
+.verifyButton {
+  border: none;
+  color: white;
+  background: #4267b2;
+  outline: none;
+  padding: 9px 15px;
+  cursor: pointer;
+}
+.verifyButton:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+.wrapper {
+  margin-bottom: 20px;
+}
+.termsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 20px;
+  padding-right: 20px;
+}
+.termsWrapper div {
+  font-size: 12px;
+}
+
+.otpWrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.otpInput {
+  flex: 1;
+  text-align: center;
+}
+.otpInput input {
+  width: 60px;
+  outline: none;
+  padding: 0 10px;
+  padding: 6px 20px;
+}

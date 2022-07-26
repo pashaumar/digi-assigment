@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  flex-direction: column;
+}
+.signedHeading {
+  width: 50%;
+  margin: 5px auto;
+  font-size: 24px;
+  font-weight: 900;
+}
+.verifiedMessage {
+  width: 50%;
+  margin: 5px auto;
+  font-size: 24px;
+  font-weight: 900;
+  color: green;
+}
+.document {
+  border: 2px solid #dfe6e9;
+  padding: 0 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+.title {
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+.content {
+  margin-bottom: 50px;
+}
+.requestButton {
+  text-align: center;
+  margin-top: 20px;
+}
+.requestButton button {
+  border: none;
+  background: #4267b2;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.requestButton button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
